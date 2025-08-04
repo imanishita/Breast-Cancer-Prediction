@@ -4,16 +4,16 @@ This project uses the **Breast Cancer Wisconsin** dataset to build a classificat
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ├── breastcancer.py # Main Python script
 ├── README.md # Project documentation
 
 ---
-## 🔍 Overview
+## Overview
 Breast cancer is one of the most common cancers in women worldwide. Early diagnosis is critical. This machine learning project uses supervised learning to classify tumors based on features like radius, texture, perimeter, area, etc.
 ---
-## 📊 Dataset Information
+## Dataset Information
 
 - **Source**: Built-in from `sklearn.datasets.load_breast_cancer()`
 - **Samples**: 569
@@ -25,7 +25,7 @@ Breast cancer is one of the most common cancers in women worldwide. Early diagno
 
 ---
 
-## 🚀 Features of this Project
+## Features of this Project
 
 - Loads breast cancer data from `sklearn`
 - Cleans and prepares the data
@@ -40,43 +40,17 @@ Breast cancer is one of the most common cancers in women worldwide. Early diagno
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - **Training Accuracy**: ~93.2%
 - **Test Accuracy**: ~92.98%
 
 ---
 
-## ✅ Requirements
 
-If you're using a `requirements.txt` file, make sure it includes:
+##  Getting Started
+
+To run the project locally:
+
 ```bash
-numpy
-
-You can install dependencies with:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-
-💡 How to Run
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/imanishita/Breast-Cancer-Prediction.git
-cd Breast-Cancer-Prediction
-Run the script:
-
-bash
-Copy
-Edit
-python breastcancer.py
-📬 Contact
-For any queries or suggestions, feel free to reach out!
-
-
-pandas
-scikit-learn
+pip install numpy pandas scikit-learn
